@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: verdana,sans-serif,serif;
+   font-size: 100%;
+   min-height: 100vh;
+   color: #40514e;
+   
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: sacramento,cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+  
+}
+
+h2{
+    font-family: montserrat,sans-serif;
+    color: #66BFBF;
+   font-weight: normal;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+h3{
+    font-family:  montserrat,sans-serif;
+    color: #11999E;
+    
+}
+p{
+    line-height: 2;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #EAF6F6;
+  }
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+}
+
+
+.pro{
+    text-decoration: underline;
+}
+
+/* class selector */
+.html{
+    background-color: #e4f9f5;
+}
+.circular{
+  
+    clip-path: circle(50px);
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  /* Sticky Footer Styling */
+
+  .footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#e4f9f5;
+    color:black;
+    text-align: center;
+  }
+  .skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align:left;
+    
+  }
+  .code{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+  .chilli{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+    background-color:darkblue;
+
+  }
+  .chilli{
+    border-radius: 200%;
+  }
+
+  .middle-container{
+    margin: 100px 0;
+  }
+
+  .bottom-container{
+ background-color: #66BFBF;
+ padding: 50px 0 20px;
+  }
+  .intro{
+    width:30%;
+    margin: auto;
+  }
+  hr{
+    border: dotted #eaf6f6;
+    border-bottom: none;
+    width:4%;
+    margin: 100px auto;
+    
+  }
+  .contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+  .btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    text-decoration: none;
+  }

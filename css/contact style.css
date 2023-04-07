@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    text-align: center;
+    
+    font-size: 50%;
+   
+   
+}
+.button2 {background-color: #66BFBF;
+            padding: 10px 40px;
+       
+    font-size: 30px;
+font-weight: bold;}
+h1{
+    margin: 10px auto 0 auto;
+    font-family: sacramento,cursive;
+ 
+  color: #66BFBF;
+  line-height: 2;
+  
+}
+
+h2{
+    font-family: montserrat,sans-serif;
+    color: #66BFBF;
+   font-weight: normal;
+    
+}
+h3{
+    font-family:  montserrat,sans-serif;
+    color: #11999E;
+    
+}
+a{
+    color: #66BFBF;
+}
+
+ /* Sticky Footer Styling */
+.footer {
+    position: sticky;
+    left: 0;
+    bottom:100px;
+    width: 100%;
+    background-color:#e4f9f5;
+    color:black;
+    text-align: center;
+  }
